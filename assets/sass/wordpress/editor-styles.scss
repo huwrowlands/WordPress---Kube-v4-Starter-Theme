@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------
+Editor Styles (TinyMCE content editor)
+--------------------------------------------------------------*/
+
+@import '../kube/settings/variables';
+
+body#tinymce.wp-editor {
+	font-size: $font-size-base;
+	font-weight: 300; 
+	line-height: $base-line; 
+	color: $color-body;
+	font-family: $font-family-base;
+}

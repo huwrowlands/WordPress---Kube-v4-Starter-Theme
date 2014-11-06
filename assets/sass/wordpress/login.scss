@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+Custom Login Screen
+--------------------------------------------------------------*/
+
+@import '../kube/settings/variables';
+
+body.login {
+	font-size: $font-size-base;
+	font-weight: 300; 
+	line-height: $base-line; 
+	color: $color-body;
+	font-family: $font-family-base;
+}
+
+//body.login div#login {}
+//body.login div#login h1 {}
+
+body.login div#login h1 a {
+	//background: url("../../../img/login-logo.png") no-repeat top center transparent; /* make sure to replace this! */
+	//width: 176px;
+	//height: 145px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-bottom: 15px;
+	display: block;
+}
+
+//body.login div#login form#loginform {}
+//body.login div#login form#loginform p {}
+//body.login div#login form#loginform p label {}
+//body.login div#login form#loginform input {}
+//body.login div#login form#loginform input#user_login {}
+//body.login div#login form#loginform input#user_pass {}
+//body.login div#login form#loginform p.forgetmenot {}
+//body.login div#login form#loginform p.forgetmenot input#rememberme {}
+//body.login div#login form#loginform p.submit {}
+//body.login div#login form#loginform p.submit input#wp-submit {}
+//body.login div#login p#nav {}
+//body.login div#login p#nav a {}
+//body.login div#login p#backtoblog {}
+//body.login div#login p#backtoblog a {}
