@@ -21,6 +21,7 @@
 	& li {
 		float: left;
 		margin-right: $base-line;
+		position: relative;
 	}
 	&.navbar-right li {
 		margin-right: 0;
@@ -36,13 +37,27 @@
 		text-decoration: underline;
 	}
 	& li.active a,
-	& span {
+	& span,
+	& li.current_page_item a {
 		text-decoration: none;
 		cursor: text;
 		color: rgba(0, 0, 0, .4);
 	}
 	& ul ul { //Huw Rowlands Added
 		display: none;
+		background: #fff;
+		left: 0;
+		position: absolute;
+		top: 1.5em;
+	}
+	& ul ul ul {
+		background: #fff;
+		left: auto;
+	}
+	& li.page_item_has_children {
+		&:hover > .children {
+			display: block;
+		}
 	}
 }
 

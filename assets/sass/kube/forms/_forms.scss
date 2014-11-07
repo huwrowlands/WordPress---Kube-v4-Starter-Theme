@@ -1,6 +1,6 @@
 /* =Forms
 -----------------------------------------------------------------------------*/
-.forms  {
+.forms, form  {
 	& .btn,
 	& input[type="submit"].btn,
 	& button,
@@ -17,7 +17,7 @@
 }
 
 
-.forms {
+.forms, form {
 	& label {
 		display: block;
 		margin-bottom: $base-line / 1.5;
